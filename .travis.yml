@@ -1,6 +1,3 @@
-env:
-  global:
-    secure: DZCDrmR4GIXh9mGiS3ZaPpiz/ELFQyVtkx8+LNvkCKD+ebJsGagvrltqxOM92Z80hUsYwAnIjn4Nn65qrQCJEl41q9tVxccoVdEwDcoOvxhOAu6xDXQTUV43d2VWsuDp6FTK0vTXlwC/N/Vqr7lXmor5ypCWS9Vxw1izhm1ugPNtznlVpjkErqX6lL1y8uPYD+zQgJM3MFR6snjQKWECzlkBmwh37VbEnhkjSMxg8fy1bLukOa5RUceDjkOFPb1XSMabS23LvIgcV1vG6vBndxuPDIvEmm24r/UliC280l5ffbEcG9fDitqMOposvW6lP9//RZUAvIATPcykU7QaNB0/Mvps6gEtoHTdpbi5O9LdyAhIPC2kfl1RTZQlE28BSXxqubgwziRP07bKGBLTdaYqvFcwnswNMTwMeoS6dfCbmW4sCrb2d8CD7HSSB92kHtr+Sslfpkwow82UKzc0LHg2Cj4ctSuYOBnCKO5l5PsgoPpVE7WCbgn0oewb5jSezbZoD/5DHuMdBKJ9o8KzAXR0/0mbGHmr/klmwo8ToLp53kKtR0zU/oul+U5PcVw8rSFJAN2I//L9WrviiiyBdYkqMeuq/Z6s+SUaOCs5GlkYPLDB73iTdT67DCwnd0VjRWpN9jO5uH8HqHEVyi2rQuE4qe8ax6bSCUAxt9bX1YI=
 language: php
 php:
 - 5.5
@@ -8,7 +5,7 @@ php:
 notifications:
   hipchat:
     rooms:
-    - HIPAPI@1981369
+      secure: vn1wYU/pazgQ9Cc1DSnTHC4TX05xYTBFylalOI5OoWhEJVVJBHQzKwa7uDboCsCgnrmVYQDJ4hglf7hjKMfbzZtC6KIGmCfDXpKX43tlqpU0GFKvY4BIHf5WRX8RzqYoUlDIgEmzJL+PUTennncYbmZsukQfw3OyZBHk7ScOCAASoeZIxugLB+an+sYG7QXtHZxtM2+VuZiTfebCfvOFV7ndnzQSIpy9bNwXYSeZDugpA+DO+Zf8zsUZeJvGcKTugikabKorRiN5YrMuxScSGvOHIRWoNVVJPb++wthUgqEeYBuwO0ji+wlKovBW0AlVIvoq1w522UWr8o7tPN1WonLjT/BIDEAr9s/AyUSywKfG6mXossskK8sQ0eyWu9NTcjXAqR1wrPgIzvrhrp5TlgGtu3YahwjS+ZUPmK4ek8WBGOng/ODi/1bIc/WTpwP8o0YFITkDcliFwYQdQpdibo32dQRjQZQujoc3mxKOtLvVnVYY2Qwpp1VGktb9kpxy4d2L8hFxrtlB7Jcz+cg3wJ0MGSb9yjmxREn5DXfFJKuAq19wTzbmvFClacIqyz4vLNG/Yll0T5K5WoZHDG9mRdFI3AHYmP216Y/W9obaYFK70WOnpqZtEUCPgFqV7MzRVS1lAvH4YaLd0f+KktP5QGn250h/EF37lAUPUBYD45c=
     template:
     - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}'
     notify: true
