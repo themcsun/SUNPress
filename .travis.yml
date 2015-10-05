@@ -1,0 +1,12 @@
+language: php
+php:
+- 5.5
+- 5.4
+secure: "RInAh/vdOPz4heGSdnJKD2bTunJ7eOPSz4zvwu2RCWKEp89BveiA3o9Ylq59Ew0DKfwyV0QjDCGjal4+ZpRA1nLvD6soJy4CuphJ3K1F7m1wFV8gXqstBBAhaaIXG841HmhIJSpbH1t3XqwTCgE+N7ayozQ1hXg0DRuTN5bKlR/+ygS+exgjGbs25axviRrueHx8gb3x9kbaJ9uyViOHIMR+N9eEPB8aH9zW10Zp9zRmFr614d8gQ3t1WDKncN6Ghwoa2dfB2z71trm94QcLoRAqjli0GDBZDnRaY3Kw/d00DaLr5UurYOFrAepCeNvPd8QvRD8TSCEkh2zy3rI/zX5JMOfLApRj5/akoNzzaW/5nfHZeMMZLkBUNMLvwiDlyYqaIcbdltabtVchQKb0NEZCfEvDLzqK60ixWP6J41MbaM5NPq8iahNyVnOsjYCt5Pwvu25yOZEaXeDC7VY6yzP30VLrtZxOI276+hCkpmocq21F30ZQzJanCDFluX9EKwdDqKBKX8fZw+G0sutO0BkRV6O3DqgW5BprPHZ51G8i9F04E/xdebImKmPcj3zeCcgLkPnW98alFyP61TwcBdhdXrcgv+Ir64We6nqHZYuu1Uy1mNMnotVIIRPzoyt07Wt11EbuSpuzYmM9Up/ia109njsDZv7VMM5IcAMR/a8="
+notifications:
+  hipchat:
+    rooms:
+      - [HIPAPI]@[1981369]
+    template:
+      - '%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}'
+    notify: true
